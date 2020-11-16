@@ -1,0 +1,40 @@
+@startuml
+
+circle N0
+circle N1
+circle N2
+circle N3
+circle N4
+circle N5
+circle N6
+
+N0 --> N6
+N0 --> N1
+N0 --> N5
+
+N1 --> N0
+N1 --> N5
+N1 --> N2
+
+N2 --> N0
+N2 --> N4
+N2 --> N3
+
+N3 --> N2
+N3 --> N5
+N3 --> N1
+
+N4 --> N0
+N4 --> N1
+N4 --> N2
+
+N5 --> N2
+N5 --> N1
+N5 --> N6
+
+N6 --> N4
+N6 --> N2
+N6 --> N0
+
+
+@enduml
