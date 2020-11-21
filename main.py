@@ -4,7 +4,10 @@ if __name__ == '__main__':
 
     N = 20
 
-    truth = [0, 1, 1, 1, 0, 1, 1, 0]
+    truth = []
+
+    for i in range(8):
+        truth.append(random.randint(0, 1))
 
     state = []
 
